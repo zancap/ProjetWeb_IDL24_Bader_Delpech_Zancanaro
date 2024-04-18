@@ -1,4 +1,4 @@
-# Home page – Page de connexion (index.php) :
+# Home page – Page de connexion (*index.php*) :
 
 Les champs *“Identifiant”* et *“Mot de Passe”* doivent être remplis par l’utilisateur pour avoir accès à la page de gestion des fichiers dans la base de données.
 
@@ -10,7 +10,7 @@ Au clic sur *“Ici”* en bas de la home page (*“Pour en savoir plus sur le p
 
 Il est toujours possible de revenir à cette page à partir de toutes les autres grâce au bouton Connexion/Déconnexion en haut à droite de la page.
 
-# Ajout de fichiers – Accessible seulement après connexion pour les utilisateurs enregistrés (ajout_fichiers.php) :
+# Ajout de fichiers – Accessible seulement après connexion pour les utilisateurs enregistrés (*ajout_fichiers.php*) :
 
 L’utilisateur connecté peut ici ajouter des fichiers : à chaque fichier xml ajouté, un ou plusieurs scans (fichiers d’images jpg) doivent être associés. Le fichier xml et ses scans doivent impérativement avoir le même nom (extension exclue) pour être correctement ajoutés à la base des données et uploadés sur le serveur.
 
@@ -20,7 +20,7 @@ Un message d’erreur apparaît si un fichier est déjà existant dans la base d
 
 Grâce à cette page les informations contenues dans le fichier xml sont parsées et déposées dans la base des données pour être ensuite consultées par les chercheurs et les autres utilisateurs du site web.
 
-# Tableau de bord/Gestion de fichiers – Accessible seulement après connexion pour les utilisateurs enregistrés (gestion_fichiers.php) :
+# Tableau de bord/Gestion de fichiers – Accessible seulement après connexion pour les utilisateurs enregistrés (*gestion_fichiers.php*) :
 
 Cette page regroupe tous les fichiers présents dans la base de données.
 
@@ -28,7 +28,7 @@ Le bouton *“Supprimer”* permet de supprimer le fichier à la fois de la base
 
 Les noms des fichiers sont des liens vers la page d’affichage.
 
-# Les filtres – Page de recherche accessible à tous utilisateurs sans connexion (recherche.php) :
+# Les filtres – Page de recherche accessible à tous utilisateurs sans connexion (*recherche.php*) :
 
 L'utilisateur peut choisir autant de filtres qu’il/elle souhaite. Tous les filtres peuvent être combinés, et si l’utilisateur n’en choisit aucun, tous les fichiers sont affichés.
 
@@ -38,7 +38,7 @@ Cette page interroge la base de données pour comparer les filtres sélectionné
 
 Une fois la recherche lancée, la page de résultats s’affiche.
 
-# Page des résultats – Affiche la liste des fichiers correspondantes aux filtres sélectionnés (resultats.php) :
+# Page des résultats – Affiche la liste des fichiers correspondantes aux filtres sélectionnés (*resultats.php*) :
 
 Le tableau correspond aux informations de la base de données, et les textes affichés correspondent à la recherche effectuée sur la page précédente. 
 
