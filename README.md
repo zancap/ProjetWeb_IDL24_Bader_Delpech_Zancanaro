@@ -2,9 +2,9 @@
 
 Les champs *“Identifiant”* et *“Mot de Passe”* doivent être remplis par l’utilisateur pour avoir accès à la page de gestion des fichiers dans la base de données.
 
-Au clic sur “Connexion”, et si le mot de passe et l’identifiant ont été correctement saisis, l’utilisateur va être redirigé à la page de gestion des fichiers.
+Au clic sur *“Connexion”*, et si le mot de passe et l’identifiant ont été correctement saisis, l’utilisateur va être redirigé à la page de gestion des fichiers.
 
-Au clic sur “Continuer sans connexion” l’utilisateur va être redirigé sur la page de recherche qui permet d’explorer le contenu de la base des données grâce à des filtres pré-remplis et à des champs de recherche libres.
+Au clic sur *“Continuer sans connexion”* l’utilisateur va être redirigé sur la page de recherche qui permet d’explorer le contenu de la base des données grâce à des filtres pré-remplis et à des champs de recherche libres.
 
 Au clic sur *“Ici”* en bas de la home page (*“Pour en savoir plus sur le projet, cliquez ici.”*) l’utilisateur sera redirigé sur le site principal du projet *E-Calm* ( https://e-calm.huma-num.fr/ ).
 
