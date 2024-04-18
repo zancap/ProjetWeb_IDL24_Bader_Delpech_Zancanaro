@@ -44,7 +44,7 @@ Le tableau correspond aux informations de la base de données, et les textes aff
 
 Le nom du fichier est cliquable et ouvre la page d’affichage du texte sélectionné.
 
-Page de contenu - Pour chaque fichier (*affichage_texte.php*) :
+# Page de contenu - Pour chaque fichier (*affichage_texte.php*) :
 
 Cette page affiche le ou les scan(s) de la copie, la transcription du texte et la normalisation.
 
