@@ -63,3 +63,10 @@ Le filtre *“longueur  du texte”* reste à développer. Lors du parsing, no
 Nous avions initialement prévu d’évaluer le *“Taux d’erreur”* pour chaque texte : mais comme le choix de ce qui constitue une erreur est subjective à l’enseignant, à la consigne, à l'âge de l'étudiant, etc. nous avons décidé de ne pas procéder au développement de ce filtre. 
 
 La vérification de la conformité au DTD n’est pas fonctionnelle (mais script existant) car nous n’avons pas pu la tester avec un DTD conforme.
+
+Nous avons essayé de respecter l’architecture MVC mais notre code n’est pas parfaitement modulable et il reste des parties de script dans les vues. Cet aspect est donc perfectible.
+
+L'affichage des textes pourrait être amélioré dans des versions futures, en tenant compte des différents temps d'écriture, en ajoutant les notes et commentaires aux endroits adéquats de l'affichage, etc.
+
+Il serait possible d'ajouter une fonctionnalité pour le téléchargement des fichiers en local, accessible seulement aux utilisateurs connectés.
+
