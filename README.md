@@ -1,3 +1,12 @@
+**Lien vers le site fonctionnel :** http://i3l.univ-grenoble-alpes.fr/~delpechb/projet/controleur/index.php
+**Identifiants admin :** admin@admin.com 
+**Mot de passe :** admin
+**BDD :** CopXMLSCAN
+
+Projet réalisé par Lucie Bader, Baptiste Delpech et Paola Zancanaro
+
+Libre de droits.
+
 # Home page – Page de connexion (*index.php*) :
 
 Les champs *“Identifiant”* et *“Mot de Passe”* doivent être remplis par l’utilisateur pour avoir accès à la page de gestion des fichiers dans la base de données.
@@ -19,6 +28,13 @@ Un message d’erreur est envoyé si l’utilisateur essaye d’ajouter un fichi
 Un message d’erreur apparaît si un fichier est déjà existant dans la base de données.
 
 Grâce à cette page les informations contenues dans le fichier xml sont parsées et déposées dans la base des données pour être ensuite consultées par les chercheurs et les autres utilisateurs du site web.
+
+L’ajout des fichiers se fait en plusieurs temps : 
+1. vérification des conditions d’ajout
+2. parsing du nom du fichier .xml (qui récupère plusieurs informations comme l’id de l’élève, la classe, l’année, etc.)
+3. parsing du contenu du fichier .xml (pour savoir s’il y a une normalisation et compter les temps d’écriture)
+4. ajout des informations récupérées grâce aux parsings à la BDD
+5. téléchargement des fichiers sur le serveur dans le répertoire *“uploads”*
 
 # Tableau de bord/Gestion de fichiers – Accessible seulement après connexion pour les utilisateurs enregistrés (*gestion_fichiers.php*) :
 
