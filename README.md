@@ -1,6 +1,9 @@
 **Lien vers le site fonctionnel :** http://i3l.univ-grenoble-alpes.fr/~delpechb/projet/controleur/index.php
+
 **Identifiants admin :** admin@admin.com 
+
 **Mot de passe :** admin
+
 **BDD :** CopXMLSCAN
 
 Projet réalisé par Lucie Bader, Baptiste Delpech et Paola Zancanaro
